@@ -1,7 +1,7 @@
 
 public class Genre {
 	private String name;
-	
+	//das ist ein test
 	public Genre(String name) {
 		super();
 		this.name = name;
