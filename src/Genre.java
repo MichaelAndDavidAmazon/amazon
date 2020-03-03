@@ -1,7 +1,7 @@
 
 public class Genre {
 	private String name;
-	
+	//Hallo
 	public Genre(String name) {
 		super();
 		this.name = name;
