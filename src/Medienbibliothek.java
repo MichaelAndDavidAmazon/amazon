@@ -17,10 +17,13 @@ public class Medienbibliothek {
         }
     }
     
-    public void sucheNachTitel(){
+    public void sucheNachTitel(String titel){
         ArrayList<Medien> = new ArrayList<>();
         for(Medien m:amazonListe){
-            if(m.get)
+            if(m.getTitel.equals(titel)){
+                return m;
+            }
         }
+        return 0;
     }
 }
