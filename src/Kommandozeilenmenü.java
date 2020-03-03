@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Kommandozeilenmenü {
-
 	Scanner scan;
-
 	public Kommandozeilenmenü() {
 		this.scan = new Scanner(System.in);
 	}
