@@ -2,6 +2,7 @@
 public class Genre {
 	private String name;
 	//das ist ein test
+	//LOOOL
 	public Genre(String name) {
 		super();
 		this.name = name;
