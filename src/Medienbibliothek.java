@@ -6,4 +6,21 @@ public class Medienbibliothek {
     public Medienbibliothek(ArrayList<Medien> amazonListe) {
         this.amazonListe = amazonListe;
     }
+    public void hinzufügen(Medium m) {
+        this.amazonListe.add(m);
+    }
+    public void toString()
+    {
+        for(Medium m:amazonListe){
+            System.out.println("-------------------");
+            m.toString();
+        }
+    }
+    
+    public void sucheNachTitel(){
+        ArrayList<Medien> = new ArrayList<>();
+        for(Medien m:amazonListe){
+            if(m.get)
+        }
+    }
 }
