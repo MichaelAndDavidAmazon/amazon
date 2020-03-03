@@ -1,4 +1,4 @@
-public class Urheber {
+public class   Urheber {
 	
 	private String vorname;
 	private String nachname;
